@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "latoregular";
+  src: url("/font/lato-regular-webfont.woff2") format("woff2"), url("/font/lato-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "keep_calm_medregular";
+  src: url("/font/keepcalm-medium-webfont.woff2") format("woff2"), url("/font/keepcalm-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gravitybook";
+  src: url("/font/gravity-book-webfont.woff2") format("woff2"), url("/font/gravity-book-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gravityregular";
+  src: url("/font/gravity-regular-webfont.woff2") format("woff2"), url("/font/gravity-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gravitybold";
+  src: url("/font/gravity-bold-webfont.woff2") format("woff2"), url("/font/gravity-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: black;
+}
+
+.header {
+  width: auto;
+}
+
+.logo__svg {
+  height: 10vh;
+}
+
+/*# sourceMappingURL=main.css.map */
