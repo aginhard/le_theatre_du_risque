@@ -1,9 +1,9 @@
 @import 'partials/typo/_typo.scss';
-@import 'partials/typo/var';
-@import 'partials/composants/animations';
-@import 'partials/composants/header';
+@import 'partials/typo/var.scss';
+@import 'partials/composants/animations.scss';
+@import 'partials/composants/header.scss';
 @import 'partials/composants/_menu.scss';
-@import 'partials/composants/accueil';
+@import 'partials/composants/accueil.scss';
 
 body {
     background-color: black;
