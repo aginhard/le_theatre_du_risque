@@ -1,14 +1,11 @@
 @import 'partials/typo/_typo.scss';
+@import 'partials/typo/var';
+@import 'partials/composants/animations';
+@import 'partials/composants/header';
 @import 'partials/composants/_menu.scss';
 
 body {
     background-color: black;
-}
-
-.header {
-    width: auto;
-}
-
-.logo__svg {
-    height: 10vh;
+    text-align: center;
+    color: white;
 }
