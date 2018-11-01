@@ -14,9 +14,3 @@ var myFullpage = new fullpage('#fullpage', {
 			
     });
 
-var menuButton = document.getElementById("burger-check");
-var bodyPage = document.getElementById("fullpage");
-
-menuButton.addEventListener('click'), function(){
-    bodyPage.classList.add("opacity_menu");
-}
