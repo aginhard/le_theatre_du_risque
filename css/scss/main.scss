@@ -1,9 +1,10 @@
 @import 'partials/typo/_typo.scss';
-@import 'partials/typo/var.scss';
-@import 'partials/composants/animations.scss';
-@import 'partials/composants/header.scss';
+@import 'partials/typo/_var.scss';
+@import 'partials/composants/_animations.scss';
+@import 'partials/composants/_header.scss';
 @import 'partials/composants/_menu.scss';
-@import 'partials/composants/accueil.scss';
+@import 'partials/composants/_accueil.scss';
+@import 'partials/composants/_proche.scss';
 
 body {
     background-color: black;
