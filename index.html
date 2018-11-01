@@ -9,46 +9,89 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 </head>
-<body>
+<body id="page">
 	<div class="container-fluid">
-		<div class="header">
+		<div id="header" class="header">
 			<div class="row">
 				<div class="col col-md-1 col-sm-1">
-					<img style="display: none;" src="svg/logo.svg" alt="le_theatre_du_risque">
+					<img src="svg/logo.svg" alt="le_theatre_du_risque">
 				</div>
+				<div class="col-3"></div>
 				<div class="col">
 					<div class="header__menu">
-					<!--Trouver un menu déroulant-->		
-					<input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="menu__title"><h3>Le Théâtre du Risque</h3></label>
-					<nav id="navigation1" class="navigation">
-					  <ul>
-						<li><a href="#">Accueil</a></li>
-						<li><a href="#">La Mélancolie des barbares</a></li>
-						<li><a href="#">L'Odeur des Arbres</a></li>
-						<li><a href="#">Seuls en scène</a></li>
-						<li><a href="#">Roberto Zucco</a></li>
-						<li><a href="#">Richard III</a></li>
-						<li><a href="#">Formation</a></li>
-						<li><a href="#">Contact</a></li>
-					  </ul>
-					</nav>
+					<!--Trouver un menu déroulant-->	
+						<input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="menu__title">LES CRÉATIONS</label>
+						<nav id="navigation1" class="navigation">
+						<ul>
+							<li><a href="#">PROCHAINEMENT</a></li>
+							<li><a href="#">LA MÉLANCOLIE DES BARBARES</a></li>
+							<li><a href="#">L'ODEUR DES ARBRES</a></li>
+							<li><a href="#">SEULS EN SCÈNE</a></li>
+							<li><a href="#">ROBERTO ZUCCO</a></li>
+							<li><a href="#">RICHARD III</a></li>
+							<li><a href="#">CONTACT</a></li>
+						</ul>
+						</nav>
 					</div>
 				</div>
+				<div class="col-3"></div>
 				<div class="col col-md-1 col-sm-1"></div>
 			</div>
 		</div>
 	</div>
-	<div class="fullpage">
-		<div class="section page page-accueil">
-			
+
+	<div id="fullpage">
+		<div data-anchor="an_intro" class="section page page-accueil">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col sol-sm-0"></div>
+					<div class="col col-lg-6 col-md-12 col-sm-12">
+						
+						<h2>Prochaines dates :</h2>
+						<div class="container-fluid prog__saison">
+								<div class="row row-sm-0">
+										<div class="col">
+											<h4>LA MÉLANCOLIE DES BARBARES</h4>
+										</div>
+										<div class="col prog-date">
+											<h5>29 MARS 2019 - 20H00</h5>
+											<h6>La Vence-Scène | Saint-Égrève</h6>
+										</div>
+								</div>
+								<div class="row">
+										<div class="col">
+											<h4>L'ODEUR DES ARBRES</h4>
+										</div>
+										<div class="col prog-date">
+											<h5>29 MARS 2019 - 20H00</h5>
+											<h6>La Vence-Scène | Saint-Égrève</h6>
+										</div>
+								</div>
+								<div class="row">
+										<div class="col">
+											<h4>SEULS EN SCÈNE</h4>
+										</div>
+										<div class="col prog-date">
+											<h5>29 MARS 2019 - 20H00</h5>
+											<h6>La Vence-Scène | Saint-Égrève</h6>
+										</div>
+								</div>
+						</div>
+					
+					</div>
+					<div class="col col-sm-0"></div>
+				</div>
+			</div>
 		</div>
-		<div class="section page page-spectacle">
-			
+
+		<div data-anchor="an_lmdb" class="section page page-spectacle">
+			<p>test</p>
 		</div>
 	</div>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/fullpage.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
+	
 </body>
 </html>

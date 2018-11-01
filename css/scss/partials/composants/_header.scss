@@ -1,11 +1,11 @@
-    .header {
-        margin-top: 1%;
-        width: 100%;
-        position: fixed;
-        img{
-            height: 8vh;
-        }
-        .header__menu {
-            z-index: 1000;   
-        }
-    }
+#header{
+    position: fixed;
+    left: 0;
+    height: 70px;
+    display:block;
+    width: 100%;
+    background: #3330;
+    z-index:9;
+    padding: 1%;
+  }
+

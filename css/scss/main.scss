@@ -3,9 +3,16 @@
 @import 'partials/composants/animations';
 @import 'partials/composants/header';
 @import 'partials/composants/_menu.scss';
+@import 'partials/composants/accueil';
 
 body {
     background-color: black;
     text-align: center;
     color: white;
 }
+.section{
+    text-align: center;
+  }
+  .section a{
+    outline: none;
+  }

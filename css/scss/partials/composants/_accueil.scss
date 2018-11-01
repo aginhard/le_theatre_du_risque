@@ -1,0 +1,31 @@
+.page-accueil{
+    margin-top: 2rem;
+    width: 100%;
+    max-height: 80vh;
+    h1 {
+        padding-top: 2rem;
+        font-family: Impact;
+    }
+    h2 {
+        
+        padding: 2rem;
+    }
+    h3 {
+        padding-bottom: 2rem;
+    }
+   
+    .prog__saison {
+        max-height: 50vh;
+       overflow: auto;
+       padding: 2rem;
+       text-align: center;
+       border-bottom: 2px solid white;
+       border-top: 2px solid white;
+       .row {
+           padding: 1rem;
+       }
+       .prog-date {
+           color: orange;
+       }
+    }
+}
