@@ -11,8 +11,31 @@
         padding: 1rem;
     }
     blockquote {
-        margin-top: 30vh;
+        margin-top: 20vh;
         font-family: latoregular;
         font-size: 1em;
     }
 }
+@media only screen and (max-width : 576px) {
+    .page-accueil{
+        margin-top: 5vh;
+        h1 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: bold;
+            font-size: 1.3em;
+            padding: 1rem;
+            border-bottom: 2px solid white;
+        }
+        h2 {
+            font-family: keep_calm_medregular;
+            font-size: 1em;
+            padding: 1rem;
+        }
+        blockquote {
+          
+            margin-top: 20vh;
+            font-family: latoregular;
+            font-size: .8em;
+        }
+    }
+  }

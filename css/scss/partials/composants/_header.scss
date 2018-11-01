@@ -9,3 +9,15 @@
     padding: 1%;
   }
 
+  @media only screen and (max-width : 576px) {
+    #header{
+      position: fixed;
+      left: 0;
+      height: 70px;
+      display:block;
+      width: 100%;
+      background: #3330;
+      z-index:9;
+      padding: 0;
+    }
+  }

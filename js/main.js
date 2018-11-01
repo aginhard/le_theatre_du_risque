@@ -14,3 +14,11 @@ var myFullpage = new fullpage('#fullpage', {
 			
     });
 
+    var bg = document.getElementById("fullpage");
+    var menuButton = document.getElementById("burger-check");
+
+    menuButton.addEventListener('click', function() {
+        bg.classList.toggle("fade-bg");
+    })
+
+    
