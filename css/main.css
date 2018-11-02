@@ -193,7 +193,7 @@
 }
 .navigation3 li {
   list-style: none;
-  font-family: "gravitybold";
+  font-family: gravitybold;
   font-size: 1em;
   padding: 0;
 }
@@ -250,7 +250,7 @@ ul {
 
 li {
   list-style: none;
-  font-family: "gravitybold";
+  font-family: gravitybold;
   font-size: 1em;
   padding: 0.8rem;
 }
@@ -292,7 +292,7 @@ li a:hover {
 }
 .page-accueil blockquote {
   margin-top: 20vh;
-  font-family: latoregular;
+  font-family: gravitybold;
   font-size: 1em;
 }
 

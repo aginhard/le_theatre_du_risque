@@ -1,11 +1,12 @@
-@import 'partials/typo/_typo.scss';
-@import 'partials/typo/_var.scss';
-@import 'partials/composants/_animations.scss';
-@import 'partials/composants/_header.scss';
-@import 'partials/composants/_menu.scss';
-@import 'partials/composants/_accueil.scss';
-@import 'partials/composants/_proche.scss';
-@import 'partials/composants/_spectacles.scss';
+@import 'partials/typo/typo';
+@import 'partials/typo/var';
+@import 'partials/composants/animations';
+@import 'partials/composants/header';
+@import 'partials/composants/menu';
+@import 'partials/composants/accueil';
+@import 'partials/composants/proche';
+@import 'partials/composants/spectacles';
+
 
 body {
     background-color: black;
