@@ -3,7 +3,7 @@ $burger--thickness: 4px;
 
 
 .menu__title {
-    font-family: Impact;
+    font-family: $police_button;
     font-size: 1.5em;
     padding: 1rem;
     border-top: 1px solid white;
@@ -76,7 +76,7 @@ $navigation__transition: max-height 0.5s ease-in-out;
   }
   li {
     list-style: none;
-    font-family: $police__menu;
+    font-family: $police_texte;
     font-size: 1em;
     padding: 0;
   
@@ -135,7 +135,7 @@ ul {
 
 li {
   list-style: none;
-  font-family: $police__menu;
+  font-family: $police_texte;
   font-size: 1em;
   padding: .8rem;
 

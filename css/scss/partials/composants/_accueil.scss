@@ -1,18 +1,18 @@
 .page-accueil{
     margin-top: 5vh;
     h1 {
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: $police_titre;
         font-weight: bold;
         padding: 1rem;
         border-bottom: 2px solid white;
     }
     h2 {
-        font-family: keep_calm_medregular;
+        font-family: $police_sousTitre;
         padding: 1rem;
     }
     blockquote {
         margin-top: 20vh;
-        font-family: $police__menu;
+        font-family: $police_legende;
         font-size: 1em;
     }
 }
