@@ -388,6 +388,75 @@ li a:hover {
     font-size: 1em;
   }
 }
+.page-spectacle h1 {
+  margin-top: 30vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 2rem;
+  border-bottom: 1px solid white;
+}
+.page-spectacle blockquote {
+  padding: 2rem;
+  font-family: latoregular;
+  font-size: 1em;
+}
+.page-spectacle .resa-buttons {
+  margin-top: 10vh;
+}
+.page-spectacle .resa-buttons a {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.page-spectacle .resa-buttons a.button-pro {
+  color: orange;
+  border: 1px solid orange;
+}
+.page-spectacle .resa-buttons a.button-pro:hover {
+  background-color: orange;
+  color: black;
+}
+.page-spectacle .resa-buttons a:hover {
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (max-width: 576px) {
+  .page-spectacle h1 {
+    font-size: 1.5em;
+    margin-top: 10vh;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    padding: 2rem;
+    border-bottom: 1px solid white;
+  }
+  .page-spectacle blockquote {
+    padding: 2rem;
+    font-family: latoregular;
+    font-size: 0.8em;
+  }
+  .page-spectacle .resa-buttons {
+    margin-top: 5vh;
+  }
+  .page-spectacle .resa-buttons a {
+    font-size: 0.5em;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .page-spectacle .resa-buttons a.button-pro {
+    color: orange;
+    border: 1px solid orange;
+  }
+  .page-spectacle .resa-buttons a.button-pro:hover {
+    background-color: orange;
+    color: black;
+  }
+  .page-spectacle .resa-buttons a:hover {
+    background-color: white;
+    color: black;
+  }
+}
 body {
   background-color: black;
   text-align: center;
