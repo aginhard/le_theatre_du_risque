@@ -1,8 +1,18 @@
-// Burger menu button
+// Burger menu button à ranger dans les variables
 $burger--thickness: 4px;
 
 
-.menu__title {
+// ??
+small {
+  font-size: 14px;
+}
+
+// Il faut essayer de hierarchiser au maximum comme dans le html
+
+
+.menu {
+
+  .menu__title {
     margin: 10% 0% 0% 0%;
     font-family: $police_sousTitre;
     font-weight: 100;
@@ -15,29 +25,64 @@ $burger--thickness: 4px;
     cursor: pointer;
     line-height: 0.5;
     background-color: $secondary-color;
+
     &:hover {
-        color: $main-toggle-hover-color;
+    color: $main-toggle-hover-color;
+    }  
+  }
+  .title__gradient {
+    background-image:linear-gradient( to right, $main-toggle-color , $secondary-color );
+    height: 1px;
+    &:hover {
+      background-image: $main-toggle-hover-color;
+  }
+  }
+  .navigation {
+
+    .navigation__container {
+      padding: 0 0 0 0;
+  
+      .container__item {
+        list-style: none;
+        background-color: $secondary-color;
+        margin : 0px 0px 1px 0px;
+        font-family: $police_texte;
+        font-size: 1em;
+        padding: 0.5em 0em 0.5em 0em;
+        text-align: left;
+  
+        .item__link {
+          text-decoration: none;
+          outline: none;
+          margin: 0px 0px 0px 10px;
+          color: $main-color;
+          
+          &:hover {
+              color: $main-toggle-hover-color;
+              text-decoration: none;
+          } 
+        }
+      }
     }
-    
+  }
 }
-.burger-check__gradient {
-  background-image:radial-gradient(to right, $main-toggle-color , $secondary-color );
-  height: 0.5px;
-  &:hover {
-    background-image: $main-toggle-hover-color;
-}
-}
+  
+
+
+
+
+
+
 
 .menu__title2 {
-  font-family: Impact;
-  font-size: 1.3em;
-  padding: 1em;
+  font-family: $police_sousTitre;
+  font-size: 1em;
+  margin: 0px 0px 10px 10px; 
  
   cursor: pointer;
   &:hover {
       color: $main-toggle-hover-color;
   }
-  
 }
 .burger-check {
   display: none;
@@ -78,9 +123,7 @@ $navigation__transition: max-height 0.5s ease-in-out;
   opacity: 1;
   background-color: $secondary-color; 
   transition: $navigation__transition;
-  ul {
-    margin: 0;
-  }
+
   li {
     list-style: none;
     font-family: $police_texte;
@@ -91,10 +134,12 @@ $navigation__transition: max-height 0.5s ease-in-out;
     a {
       text-decoration: none;
       outline: none;
+      color: $main-toggle-color;
       
       &:hover {
           color: $main-toggle-hover-color;
           text-decoration: none;
+          color: $main-toggle-hover-color;
              
       } 
     }
@@ -125,37 +170,6 @@ $navigation__transition: max-height 0.5s ease-in-out;
   transition: $navigation__transition;
 }
 
-a {
-  color: $main-color;
-}
-
-small {
-  font-size: 14px;
-}
-
-
-ul {
-  padding: 0 0 0 0;
-}
-
-li {
-  list-style: none;
-  font-family: $police_texte;
-  font-size: 1em;
-  padding: 0.8em 0.8em 0.8em 0.8em;
-
-  
-  a {
-    text-decoration: none;
-    outline: none;
-    
-    &:hover {
-        color: $main-toggle-hover-color;
-        text-decoration: none;
-           
-    } 
-  }
-}
 
 @media only screen and (max-width : 576px){
 
