@@ -146,7 +146,7 @@
   height: 70px;
   display: block;
   width: 100%;
-  background: #3330;
+  background: #000000;
   z-index: 9;
   padding: 1%;
 }
@@ -158,27 +158,41 @@
     height: 70px;
     display: block;
     width: 100%;
-    background: #3330;
+    background: #000000;
     z-index: 9;
     padding: 0;
   }
 }
 .menu__title {
-  font-family: keep_calm_medregular;
-  font-size: 1.5em;
-  padding: 1rem;
-  border-top: 1px solid #000000;
-  border-bottom: 1px solid #ededed;
+  margin: 10% 0% 0% 0%;
+  font-family: gravityregular;
+  font-weight: 100;
+  font-size: 1em;
+  padding: 1em 0em 1rem 0em;
+  color: #d6d6d6;
+  display: block;
+  width: 90%;
+  text-align: left;
   cursor: pointer;
+  line-height: 0.5;
+  background-color: #000000;
 }
 .menu__title:hover {
   color: #ffffff;
 }
 
+.burger-check__gradient {
+  background-image: linear-gradient(to right, #d6d6d6, #000000);
+  height: 0.5px;
+}
+.burger-check__gradient:hover {
+  background-image: #ffffff;
+}
+
 .menu__title2 {
   font-family: Impact;
   font-size: 1.3em;
-  padding: 1rem;
+  padding: 1em;
   cursor: pointer;
 }
 .menu__title2:hover {
@@ -204,18 +218,14 @@
 .navigation {
   overflow: hidden;
   max-height: 0;
-  border-radius: 5px;
   opacity: 1;
   background-color: #000000;
-  border-right: 1px solid #ededed;
-  border-left: 1px solid #ededed;
   transition: max-height 0.5s ease-in-out;
 }
 
 .navigation2 {
   overflow: hidden;
   max-height: 0;
-  border-radius: 5px;
   opacity: 1;
   background-color: #000000;
   transition: max-height 0.5s ease-in-out;
@@ -231,27 +241,25 @@
 }
 .navigation3 ul {
   margin: 0;
-  padding: 1rem;
 }
 .navigation3 li {
   list-style: none;
   font-family: latoregular;
   font-size: 1em;
-  padding: 0;
+  padding: 0 0 0 0;
 }
 .navigation3 li a {
   text-decoration: none;
   outline: none;
 }
 .navigation3 li a:hover {
-  color: orange;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .navigation4 {
   overflow: hidden;
   max-height: 0;
-  border-radius: 5px;
   opacity: 1;
   background-color: #000000;
   transition: max-height 0.5s ease-in-out;
@@ -278,7 +286,7 @@
 }
 
 a {
-  color: #ededed;
+  color: #ffffff;
 }
 
 small {
@@ -286,37 +294,32 @@ small {
 }
 
 ul {
-  margin: 2rem;
-  padding: 0;
+  padding: 0 0 0 0;
 }
 
 li {
   list-style: none;
   font-family: latoregular;
   font-size: 1em;
-  padding: 0.8rem;
+  padding: 0.8em 0.8em 0.8em 0.8em;
 }
 li a {
   text-decoration: none;
   outline: none;
 }
 li a:hover {
-  color: orange;
+  color: #ffffff;
   text-decoration: none;
 }
 
 @media only screen and (max-width: 576px) {
   .menu__title {
-    font-family: Impact;
-    font-weight: bold;
     font-size: 1em;
-    padding: 1rem;
-    border-top: 1px solid #ededed;
-    border-bottom: 1px solid #ededed;
+    text-align: center;
     cursor: pointer;
   }
   .menu__title:hover {
-    color: orange;
+    color: #ffffff;
   }
 }
 .page-accueil {
@@ -326,7 +329,7 @@ li a:hover {
   font-family: Impact;
   font-weight: bold;
   padding: 1rem;
-  border-bottom: 2px solid #ededed;
+  border-bottom: 2px solid #ffffff;
 }
 .page-accueil h2 {
   font-family: gravityregular;
@@ -347,7 +350,7 @@ li a:hover {
     font-weight: bold;
     font-size: 1.3em;
     padding: 1rem;
-    border-bottom: 2px solid #ededed;
+    border-bottom: 2px solid #ffffff;
   }
   .page-accueil h2 {
     font-family: keep_calm_medregular;
@@ -378,8 +381,8 @@ li a:hover {
   overflow: auto;
   padding: 2rem;
   text-align: center;
-  border-bottom: 2px solid #ededed;
-  border-top: 2px solid #ededed;
+  border-bottom: 2px solid #ffffff;
+  border-top: 2px solid #ffffff;
 }
 .page-proche .prog__saison .row {
   padding: 1rem;
@@ -411,8 +414,8 @@ li a:hover {
     overflow: auto;
     padding: 2rem;
     text-align: center;
-    border-bottom: 2px solid #ededed;
-    border-top: 2px solid #ededed;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
   }
   .page-proche .prog__saison .row {
     padding: 1rem;
@@ -434,7 +437,7 @@ li a:hover {
   margin-top: 30vh;
   font-family: Impact;
   padding: 2rem;
-  border-bottom: 1px solid #ededed;
+  border-bottom: 1px solid #ffffff;
 }
 .page-spectacle blockquote {
   font-family: gravitybook;
@@ -448,7 +451,7 @@ li a:hover {
   font-family: keep_calm_medregular;
   width: 50%;
   padding: 1rem;
-  border: 1px solid #ededed;
+  border: 1px solid #ffffff;
   border-radius: 5px;
 }
 .page-spectacle .resa-buttons a.button-pro {
@@ -460,7 +463,7 @@ li a:hover {
   color: #000000;
 }
 .page-spectacle .resa-buttons a:hover {
-  background-color: #ededed;
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -470,7 +473,7 @@ li a:hover {
     margin-top: 10vh;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     padding: 2rem;
-    border-bottom: 1px solid #ededed;
+    border-bottom: 1px solid #ffffff;
   }
   .page-spectacle blockquote {
     padding: 2rem;
@@ -485,7 +488,7 @@ li a:hover {
     font-size: 1em;
     width: 100%;
     padding: 0.5rem;
-    border: 1px solid #ededed;
+    border: 1px solid #ffffff;
     border-radius: 5px;
   }
   .page-spectacle .resa-buttons a.button-pro {
@@ -493,18 +496,18 @@ li a:hover {
     border: 1px solid orange;
   }
   .page-spectacle .resa-buttons a.button-pro:hover {
-    background-color: orange;
+    background-color: #ffffff;
     color: #000000;
   }
   .page-spectacle .resa-buttons a:hover {
-    background-color: #ededed;
+    background-color: #ffffff;
     color: #000000;
   }
 }
 body {
   background-color: #000000;
   text-align: center;
-  color: #ededed;
+  color: #ffffff;
 }
 
 .section {

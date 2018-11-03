@@ -61,7 +61,7 @@
                     color: orange;
                     border: 1px solid orange;
                     &:hover {
-                        background-color: orange;
+                        background-color: $main-toggle-hover-color;
                         color: $secondary-color;
                     }
                 }
