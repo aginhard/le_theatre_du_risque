@@ -3,7 +3,7 @@
         margin-top: 30vh;
         font-family: Impact;
         padding: 2rem;
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid $main-color;
     }
     blockquote {
         font-family: $police_legende;
@@ -16,19 +16,19 @@
             font-family: $police_button;
             width: 50%;
             padding: 1rem;
-            border: 1px solid white;
+            border: 1px solid $main-color;
             border-radius: 5px;
             &.button-pro{
                 color: orange;
                 border: 1px solid orange;
                 &:hover {
                     background-color: orange;
-                    color: black;
+                    color: $secondary-color;
                 }
             }
             &:hover {
-                background-color: white;
-                color: black;
+                background-color: $main-color;
+                color: $secondary-color;
             }
         }
     }
@@ -41,7 +41,7 @@
             margin-top: 10vh;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             padding: 2rem;
-            border-bottom: 1px solid white;
+            border-bottom: 1px solid $main-color;
         }
         blockquote {
             padding: 2rem;
@@ -55,19 +55,19 @@
                 font-size: 1em;
                 width: 100%;
                 padding: .5rem;
-                border: 1px solid white;
+                border: 1px solid $main-color;
                 border-radius: 5px;
                 &.button-pro{
                     color: orange;
                     border: 1px solid orange;
                     &:hover {
                         background-color: orange;
-                        color: black;
+                        color: $secondary-color;
                     }
                 }
                 &:hover {
-                    background-color: white;
-                    color: black;
+                    background-color: $main-color;
+                    color: $secondary-color;
                 }
             }
         }

@@ -34,6 +34,42 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Impact";
+  src: url("./font/Impact.woff2"), url("./font/Impact.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "latoregular";
+  src: url("./font/lato-regular-webfont.woff2"), url("./font/lato-regular-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "keep_calm_medregular";
+  src: url("./font/keepcalm-medium-webfont.woff2"), url("./font/keepcalm-medium-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gravitybook";
+  src: url("./font/gravity-book-webfont.woff2"), url("./font/gravity-book-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gravityregular";
+  src: url("./font/gravity-regular-webfont.woff2"), url("./font/gravity-regular-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gravitybold";
+  src: url("./font/gravity-bold-webfont.woff2"), url("./font/gravity-bold-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
 @keyframes fadein {
   from {
     opacity: 0;
@@ -131,12 +167,12 @@
   font-family: keep_calm_medregular;
   font-size: 1.5em;
   padding: 1rem;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #ededed;
   cursor: pointer;
 }
 .menu__title:hover {
-  color: orange;
+  color: #ffffff;
 }
 
 .menu__title2 {
@@ -146,7 +182,7 @@
   cursor: pointer;
 }
 .menu__title2:hover {
-  color: orange;
+  color: #ffffff;
 }
 
 .burger-check {
@@ -170,9 +206,9 @@
   max-height: 0;
   border-radius: 5px;
   opacity: 1;
-  background-color: #000;
-  border-right: 1px solid white;
-  border-left: 1px solid white;
+  background-color: #000000;
+  border-right: 1px solid #ededed;
+  border-left: 1px solid #ededed;
   transition: max-height 0.5s ease-in-out;
 }
 
@@ -181,7 +217,7 @@
   max-height: 0;
   border-radius: 5px;
   opacity: 1;
-  background-color: #000;
+  background-color: #000000;
   transition: max-height 0.5s ease-in-out;
 }
 
@@ -190,7 +226,7 @@
   max-height: 0;
   border-radius: 5px;
   opacity: 1;
-  background-color: #000;
+  background-color: #000000;
   transition: max-height 0.5s ease-in-out;
 }
 .navigation3 ul {
@@ -217,7 +253,7 @@
   max-height: 0;
   border-radius: 5px;
   opacity: 1;
-  background-color: #000;
+  background-color: #000000;
   transition: max-height 0.5s ease-in-out;
 }
 
@@ -242,7 +278,7 @@
 }
 
 a {
-  color: white;
+  color: #ededed;
 }
 
 small {
@@ -275,8 +311,8 @@ li a:hover {
     font-weight: bold;
     font-size: 1em;
     padding: 1rem;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
     cursor: pointer;
   }
   .menu__title:hover {
@@ -290,7 +326,7 @@ li a:hover {
   font-family: Impact;
   font-weight: bold;
   padding: 1rem;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #ededed;
 }
 .page-accueil h2 {
   font-family: gravityregular;
@@ -311,7 +347,7 @@ li a:hover {
     font-weight: bold;
     font-size: 1.3em;
     padding: 1rem;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #ededed;
   }
   .page-accueil h2 {
     font-family: keep_calm_medregular;
@@ -342,8 +378,8 @@ li a:hover {
   overflow: auto;
   padding: 2rem;
   text-align: center;
-  border-bottom: 2px solid white;
-  border-top: 2px solid white;
+  border-bottom: 2px solid #ededed;
+  border-top: 2px solid #ededed;
 }
 .page-proche .prog__saison .row {
   padding: 1rem;
@@ -375,8 +411,8 @@ li a:hover {
     overflow: auto;
     padding: 2rem;
     text-align: center;
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
+    border-bottom: 2px solid #ededed;
+    border-top: 2px solid #ededed;
   }
   .page-proche .prog__saison .row {
     padding: 1rem;
@@ -398,7 +434,7 @@ li a:hover {
   margin-top: 30vh;
   font-family: Impact;
   padding: 2rem;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #ededed;
 }
 .page-spectacle blockquote {
   font-family: gravitybook;
@@ -412,7 +448,7 @@ li a:hover {
   font-family: keep_calm_medregular;
   width: 50%;
   padding: 1rem;
-  border: 1px solid white;
+  border: 1px solid #ededed;
   border-radius: 5px;
 }
 .page-spectacle .resa-buttons a.button-pro {
@@ -421,11 +457,11 @@ li a:hover {
 }
 .page-spectacle .resa-buttons a.button-pro:hover {
   background-color: orange;
-  color: black;
+  color: #000000;
 }
 .page-spectacle .resa-buttons a:hover {
-  background-color: white;
-  color: black;
+  background-color: #ededed;
+  color: #000000;
 }
 
 @media only screen and (max-width: 576px) {
@@ -434,7 +470,7 @@ li a:hover {
     margin-top: 10vh;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     padding: 2rem;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #ededed;
   }
   .page-spectacle blockquote {
     padding: 2rem;
@@ -449,7 +485,7 @@ li a:hover {
     font-size: 1em;
     width: 100%;
     padding: 0.5rem;
-    border: 1px solid white;
+    border: 1px solid #ededed;
     border-radius: 5px;
   }
   .page-spectacle .resa-buttons a.button-pro {
@@ -458,17 +494,17 @@ li a:hover {
   }
   .page-spectacle .resa-buttons a.button-pro:hover {
     background-color: orange;
-    color: black;
+    color: #000000;
   }
   .page-spectacle .resa-buttons a:hover {
-    background-color: white;
-    color: black;
+    background-color: #ededed;
+    color: #000000;
   }
 }
 body {
-  background-color: black;
+  background-color: #000000;
   text-align: center;
-  color: white;
+  color: #ededed;
 }
 
 .section {

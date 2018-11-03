@@ -17,8 +17,8 @@
        overflow: auto;
        padding: 2rem;
        text-align: center;
-       border-bottom: 2px solid white;
-       border-top: 2px solid white;
+       border-bottom: 2px solid $main-color;
+       border-top: 2px solid $main-color;
        .row {
            padding: 1rem;
        }
@@ -51,8 +51,8 @@
            overflow: auto;
            padding: 2rem;
            text-align: center;
-           border-bottom: 2px solid white;
-           border-top: 2px solid white;
+           border-bottom: 2px solid $main-color;
+           border-top: 2px solid $main-color;
            .row {
                padding: 1rem;
            }

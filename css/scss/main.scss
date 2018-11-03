@@ -1,5 +1,5 @@
 @import 'partials/typo/typo';
-@import 'partials/typo/var';
+@import 'partials/var';
 @import 'partials/composants/animations';
 @import 'partials/composants/header';
 @import 'partials/composants/menu';
@@ -9,9 +9,9 @@
 
 
 body {
-    background-color: black;
+    background-color: $secondary-color;
     text-align: center;
-    color: white;
+    color: $main-color;
 }
 .section{
     text-align: center;
