@@ -11,7 +11,7 @@ var myFullpage = new fullpage('#fullpage', {
 		autoScrolling: false,
 		loopBottom: false,
 		loopTop: false,
-		anchors:['an_intro', 'an_proche', 'an_lmdb', 'an_oda', 'an_seuls', 'an_zucco', 'an_r3', 'an_chantiers', 'an_git', 'an_contact'],
+		anchors:['an_intro', 'an_proche', 'an_lmdb', 'an_oda', 'an_seuls', 'an_zucco', 'an_r3', 'an_contact'],
 			
     });
 

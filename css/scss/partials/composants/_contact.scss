@@ -1,0 +1,61 @@
+.page-contact {
+    h1{
+        font-family: $police_titre;
+    }
+    h2 {
+        font-family: $police_sousTitre;
+    }
+    h5 {
+        font-family: $police_legende;
+        padding: 0 0 2em 0;        
+    }
+    .line-normal {
+        background-image:linear-gradient( to right, $main-toggle-color , $secondary-color );
+        height: 2px;
+        width: 100%;
+    }
+    .line-normal-reverse {
+        
+            background-image:linear-gradient( to left, $main-toggle-color , $secondary-color );
+            height: 2px;
+            width: 100%;
+    }
+    .contact__content {
+        padding: 2em 2em 2em 2em;
+        text-align: justify;
+        .content__locate {
+            border-bottom: 1px solid white;
+            padding: 1em 1em 1em 1em;
+            .locate-logos {
+               img{
+                margin-left: .5em;
+               }
+            }
+        }
+        .content__texte {
+            font-family: $police_legende;
+            color: $tertiary_color;
+        }
+        .content__personnel {
+            margin: 2em 2em 2em 0em;
+            h6 {
+                font-family: $police_legende;
+            }
+            p{
+                font-family: $police_texte;
+            }
+        }
+        .content__general {
+            margin: 2em 2em 2em 0em;
+            h6 {
+                font-family: $police_legende;
+            }
+            p{
+                font-family: $police_texte;
+            }
+        }
+
+
+    }
+     
+}
