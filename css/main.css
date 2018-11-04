@@ -403,7 +403,7 @@ small {
 .control-buttons li {
   cursor: pointer;
   display: inline-block;
-  background: #ffffff;
+  background: #3a3939;
   text-indent: -99999px;
   height: 12px;
   width: 12px;
@@ -413,7 +413,7 @@ small {
   border-radius: 50%;
 }
 .control-buttons li.active {
-  background: #ffd3a2;
+  background: #ffffff;
 }
 
 /** ---------------------------------------
