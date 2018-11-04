@@ -3,6 +3,7 @@
 @import 'partials/composants/animations';
 @import 'partials/composants/header';
 @import 'partials/composants/menu';
+@import 'partials/composants/news-carrousel';
 @import 'partials/composants/accueil';
 @import 'partials/composants/proche';
 @import 'partials/composants/spectacles';
@@ -23,3 +24,6 @@ body {
   .fade-bg {
     opacity: .2;
   }
+
+
+  

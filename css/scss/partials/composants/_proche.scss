@@ -13,20 +13,18 @@
     }
    
     .prog__saison {
-        max-height: 50vh;
-       overflow: auto;
-       padding: 2rem;
+        max-height: 100%;
+       overflow: hidden;
        text-align: center;
        border-bottom: 2px solid $main-color;
        border-top: 2px solid $main-color;
-       .row {
-           padding: 1rem;
+       .container {
+           width: 100%;
        }
-       .prog-date {
-           color: orange;
-       }
+      
     }
 }
+
 @media only screen and (max-width : 576px) {
     .page-proche{
         margin-top: 2rem;
