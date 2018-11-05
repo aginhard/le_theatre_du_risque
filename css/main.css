@@ -448,7 +448,7 @@ small {
   }
 }
 .page-accueil {
-  margin-top: 5vh;
+  margin-top: 2em;
 }
 .page-accueil h1 {
   font-family: Impact;
@@ -461,14 +461,16 @@ small {
   padding: 1rem;
 }
 .page-accueil blockquote {
-  margin-top: 20vh;
+  margin-top: 2em;
   font-family: gravitybook;
-  font-size: 1em;
+}
+.page-accueil .margin__blockquote {
+  margin-top: 20em;
 }
 
 @media only screen and (max-width: 576px) {
   .page-accueil {
-    margin-top: 5vh;
+    margin-top: 2em;
   }
   .page-accueil h1 {
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -483,7 +485,7 @@ small {
     padding: 1rem;
   }
   .page-accueil blockquote {
-    margin-top: 20vh;
+    margin-top: 2em;
     font-family: latoregular;
     font-size: 0.8em;
   }
@@ -563,7 +565,6 @@ small {
 .page-spectacle blockquote {
   font-family: gravitybook;
   padding: 2rem;
-  font-size: 1em;
 }
 .page-spectacle a {
   color: #ffffff;
@@ -637,6 +638,11 @@ small {
     color: #000000;
   }
 }
+#lmdb-fiche-sectacle {
+  width: 100%;
+  margin: 0;
+}
+
 .page-contact h1 {
   font-family: Impact;
 }
@@ -707,6 +713,10 @@ body {
 
 .fade-bg {
   opacity: 0.2;
+}
+
+.hidden {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */

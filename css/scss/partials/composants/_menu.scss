@@ -177,10 +177,10 @@ $navigation__transition: max-height 0.5s ease-in-out;
     font-size: 1.2em;
     text-align: center;
     cursor: pointer;
-    &:hover {
-        color: $main-toggle-hover-color;
-    }
-}
+      &:hover {
+          color: $main-toggle-hover-color;
+      }
+  }
 
 
 }

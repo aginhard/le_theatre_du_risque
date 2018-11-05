@@ -9,7 +9,6 @@
     blockquote {
         font-family: $police_legende;
         padding: 2rem;
-        font-size: 1em;
     }
     a{
         color: $main-color;
@@ -85,4 +84,9 @@
             }
         }
     }  
+}
+
+#lmdb-fiche-sectacle {
+    width: 100%;
+    margin: 0;
 }

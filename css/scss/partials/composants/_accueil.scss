@@ -1,5 +1,5 @@
 .page-accueil{
-    margin-top: 5vh;
+    margin-top: 2em;
     h1 {
         font-family: $police_titre;
         font-weight: bold;
@@ -11,14 +11,17 @@
         padding: 1rem;
     }
     blockquote {
-        margin-top: 20vh;
+        margin-top: 2em;
         font-family: $police_legende;
-        font-size: 1em;
+    }
+    .margin__blockquote {
+        margin-top: 20em;
     }
 }
+
 @media only screen and (max-width : 576px) {
     .page-accueil{
-        margin-top: 5vh;
+        margin-top: 2em;
         h1 {
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             font-weight: bold;
@@ -33,7 +36,7 @@
         }
         blockquote {
           
-            margin-top: 20vh;
+            margin-top: 2em;
             font-family: latoregular;
             font-size: .8em;
         }

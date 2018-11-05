@@ -11,7 +11,7 @@ var myFullpage = new fullpage('#fullpage', {
 		autoScrolling: false,
 		loopBottom: false,
 		loopTop: false,
-		anchors:['an_intro', 'an_proche', 'an_lmdb', 'an_oda', 'an_seuls', 'an_zucco', 'an_r3', 'an_contact'],
+		anchors:['an_intro', 'an_lmdb', 'an_oda', 'an_seuls', 'an_zucco', 'an_r3', 'an_contact'],
 			
     });
 
@@ -170,3 +170,14 @@ $('#link-news-seuls').click(function() {
 
     $.fn.fullpage.moveTo('an_seuls');
 });
+
+
+
+/* Liens des boutons en savoir plus */
+
+ var lmdbButton = document.getElementById("plus-button-lmdb");
+ var pageLmdb = document.getElementById("page-accueil-lmdb");
+
+ lmdbButton.addEventListener('click', function(){
+	pageLmdb.classList.add("hidden");
+ })
