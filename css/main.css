@@ -686,6 +686,7 @@ small {
 }
 .page-contact .contact__content .content__personnel h6 {
   font-family: gravitybook;
+  font-weight: bold;
 }
 .page-contact .contact__content .content__personnel p {
   font-family: latoregular;
@@ -695,6 +696,7 @@ small {
 }
 .page-contact .contact__content .content__general h6 {
   font-family: gravitybook;
+  font-weight: bold;
 }
 .page-contact .contact__content .content__general p {
   font-family: latoregular;
