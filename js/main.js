@@ -179,5 +179,5 @@ $('#link-news-seuls').click(function() {
  var pageLmdb = document.getElementById("page-accueil-lmdb");
 
  lmdbButton.addEventListener('click', function(){
-	pageLmdb.classList.add("hidden");
+	lmdbButton.classList.add("hidden");
  })

@@ -566,19 +566,27 @@ small {
   font-family: gravitybook;
   padding: 2rem;
 }
+.page-spectacle blockquote footer {
+  color: #ffd3a2;
+}
 .page-spectacle a {
   color: #ffffff;
   font-family: gravityregular;
   font-size: 1.5em;
   cursor: pointer;
 }
-.page-spectacle .plus__gradient {
-  background-image: linear-gradient(to left, #d6d6d6, #000000);
-  height: 1px;
-  width: 100%;
+.page-spectacle .infos-buttons img {
+  width: 40%;
+  padding: 1em 0em 1em 0em;
+}
+.page-spectacle .infos-buttons p {
+  font-family: gravitybook;
+}
+.page-spectacle .infos-buttons p.pro {
+  color: #ffd3a2;
 }
 .page-spectacle .resa-buttons {
-  margin-top: 7vh;
+  margin-top: 2em;
 }
 .page-spectacle .resa-buttons a {
   font-family: keep_calm_medregular;
@@ -589,11 +597,11 @@ small {
   border-radius: 5px;
 }
 .page-spectacle .resa-buttons a.button-pro {
-  color: orange;
-  border: 1px solid orange;
+  color: #ffd3a2;
+  border: 1px solid #ffd3a2;
 }
 .page-spectacle .resa-buttons a.button-pro:hover {
-  background-color: orange;
+  background-color: #ffd3a2;
   color: #000000;
 }
 .page-spectacle .resa-buttons a:hover {
@@ -638,11 +646,6 @@ small {
     color: #000000;
   }
 }
-#lmdb-fiche-sectacle {
-  width: 100%;
-  margin: 0;
-}
-
 .page-contact h1 {
   font-family: Impact;
 }

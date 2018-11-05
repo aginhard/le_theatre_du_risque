@@ -9,6 +9,9 @@
     blockquote {
         font-family: $police_legende;
         padding: 2rem;
+        footer {
+            color: $tertiary-color;
+        }
     }
     a{
         color: $main-color;
@@ -16,13 +19,20 @@
         font-size: 1.5em;
         cursor: pointer;
     }
-    .plus__gradient {
-        background-image:linear-gradient( to left, $main-toggle-color , $secondary-color );
-        height: 1px;
-        width: 100%;
+    .infos-buttons {
+        img {
+            width: 40%;
+            padding: 1em 0em 1em 0em;
+        }
+        p {
+            font-family: $police_legende;
+            &.pro {
+                color: $tertiary-color;
+            }
+        }
     }
     .resa-buttons {
-        margin-top: 7vh;
+        margin-top: 2em;
         a {
             font-family: $police_button;
             font-size: 1em;
@@ -31,10 +41,10 @@
             border: 1px solid $main-color;
             border-radius: 5px;
             &.button-pro{
-                color: orange;
-                border: 1px solid orange;
+                color: $tertiary-color;
+                border: 1px solid $tertiary-color;
                 &:hover {
-                    background-color: orange;
+                    background-color: $tertiary-color;
                     color: $secondary-color;
                 }
             }
@@ -86,7 +96,3 @@
     }  
 }
 
-#lmdb-fiche-sectacle {
-    width: 100%;
-    margin: 0;
-}
