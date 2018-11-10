@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Impact";
   src: url("./font/Impact.woff2"), url("./font/Impact.woff");
@@ -574,6 +575,23 @@ small {
   font-family: gravityregular;
   font-size: 1.5em;
   cursor: pointer;
+  text-decoration: none;
+}
+.page-spectacle .button-plus {
+  margin: 2em 0em 2em 0em;
+}
+.page-spectacle .button-plus .plus__gradient {
+  margin: 0.5em 0em 0em 0em;
+  background-image: linear-gradient(to right, #ffffff, #000000);
+  height: 1px;
+}
+.page-spectacle .button-plus .plus__gradient-reverse {
+  margin: 0em 0em 0.5em 0em;
+  background-image: linear-gradient(to left, #ffffff, #000000);
+  height: 1px;
+}
+.page-spectacle .button-plus p {
+  font-family: keep_calm_medregular;
 }
 .page-spectacle .infos-buttons img {
   width: 40%;
@@ -586,7 +604,7 @@ small {
   color: #ffd3a2;
 }
 .page-spectacle .resa-buttons {
-  margin-top: 2em;
+  margin-top: 4em;
 }
 .page-spectacle .resa-buttons a {
   font-family: keep_calm_medregular;
@@ -699,6 +717,154 @@ small {
   font-weight: bold;
 }
 .page-contact .contact__content .content__general p {
+  font-family: latoregular;
+}
+
+.page__spectacle {
+  background-color: #000000;
+}
+.page__spectacle a {
+  text-decoration: none;
+  outline: none;
+}
+.page__spectacle .spectacle__wrapper {
+  padding: 5em;
+  max-height: 98vh;
+  overflow: auto;
+}
+.page__spectacle .spectacle__wrapper h1 {
+  font-family: Impact;
+  padding: 1em;
+  border-bottom: 1px solid #ffffff;
+}
+.page__spectacle .spectacle__wrapper .date-creation__wrapper {
+  margin: 1em 0em 1em 0em;
+}
+.page__spectacle .spectacle__wrapper .date-creation__wrapper h3 {
+  font-family: gravityregular;
+  color: #ffd3a2;
+}
+.page__spectacle .spectacle__wrapper .media__wrapper {
+  margin: 1em 0em 2em 0em;
+  border: 1px solid #ffffff;
+  overflow: auto;
+  min-height: 40vh;
+  max-height: 40vh;
+}
+.page__spectacle .spectacle__wrapper .media__wrapper .media-agenda {
+  width: 100%;
+}
+.page__spectacle .spectacle__wrapper .media__wrapper .media-video {
+  width: 100%;
+  height: 100%;
+}
+.page__spectacle .spectacle__wrapper .media__wrapper .media-photos {
+  /* Container */
+  /* Images */
+  /* Flèches de défilement */
+}
+.page__spectacle .spectacle__wrapper .media__wrapper .media-photos .carrousel-wrapper {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.page__spectacle .spectacle__wrapper .media__wrapper .media-photos .carousel {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+  background: #ddd;
+}
+.page__spectacle .spectacle__wrapper .media__wrapper .media-photos .carousel-img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  -webkit-transition: opacity ease-out 0.5s;
+  transition: opacity ease-out 0.5s;
+}
+.page__spectacle .spectacle__wrapper .media__wrapper .media-photos .carousel-img-displayed {
+  display: block;
+  opacity: 1;
+  z-index: 2;
+}
+.page__spectacle .spectacle__wrapper .media__wrapper .media-photos .carousel-img-hidden {
+  display: block;
+  opacity: 0;
+  z-index: 1;
+}
+.page__spectacle .spectacle__wrapper .media__wrapper .media-photos .carousel-img-noDisplay {
+  display: none;
+}
+.page__spectacle .spectacle__wrapper .media__wrapper .media-photos .carousel-arrow {
+  outline: none;
+  z-index: 3;
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 50%;
+  margin-top: -18px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #ffffff;
+  background-image: url("http://res.cloudinary.com/dnqehhgmu/image/upload/v1509720334/blue-arrow_jk1ydw.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 16px;
+  cursor: pointer;
+  -webkit-transition: background-size 0.15s ease-out;
+  transition: background-size 0.15s ease-out;
+}
+.page__spectacle .spectacle__wrapper .media__wrapper .media-photos .carousel-arrow:hover,
+.page__spectacle .spectacle__wrapper .media__wrapper .media-photos .carousel-arrow:focus {
+  background-size: 22px 22px;
+}
+.page__spectacle .spectacle__wrapper .media__wrapper .media-photos .carousel-arrow-next {
+  right: 10px;
+}
+.page__spectacle .spectacle__wrapper .media__wrapper .media-photos .carousel-arrow-prev {
+  left: 10px;
+  -webkit-transform: rotateZ(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotateZ(180deg);
+}
+.page__spectacle .spectacle__wrapper .media-buttons {
+  width: 100%;
+}
+.page__spectacle .spectacle__wrapper .media-buttons a {
+  cursor: pointer;
+}
+.page__spectacle .spectacle__wrapper .media-buttons img {
+  width: 40%;
+  margin: 1em;
+}
+.page__spectacle .spectacle__wrapper .text__wrapper {
+  border-top: 1px solid #ffffff;
+  margin: 1em 0em 0em 0em;
+  padding: 2em 0em 0em 0em;
+  text-align: justify;
+}
+.page__spectacle .spectacle__wrapper .text__wrapper blockquote {
+  text-align: center;
+}
+.page__spectacle .spectacle__wrapper .text__wrapper blockquote footer {
+  color: #ffd3a2;
+}
+.page__spectacle .spectacle__wrapper .text__wrapper .text-pro {
+  color: #ffd3a2;
+}
+.page__spectacle .spectacle__wrapper .distribution__wrapper {
+  margin: 1em 0em 0em 0em;
+}
+.page__spectacle .spectacle__wrapper .distribution__wrapper h6 {
+  font-family: gravityregular;
+  font-weight: bold;
+}
+.page__spectacle .spectacle__wrapper .distribution__wrapper p {
   font-family: latoregular;
 }
 

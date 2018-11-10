@@ -173,11 +173,20 @@ $('#link-news-seuls').click(function() {
 
 
 
-/* Liens des boutons en savoir plus */
+/* Liens des boutons en savoir plus essai peu concluant... 
 
- var lmdbButton = document.getElementById("plus-button-lmdb");
- var pageLmdb = document.getElementById("page-accueil-lmdb");
+function changement(){
+	$('#page-decouvrir-lmdb').fadeToggle('slow');
+}
 
- lmdbButton.addEventListener('click', function(){
-	lmdbButton.classList.add("hidden");
- })
+$('#button-plus-lmdb').click(function(){
+	$('h5').text(function(i, text){
+		return text === "REVENIR" ? "DÉCOUVRIR" : "REVENIR";
+	})
+	$('#page-accueil-lmdb').fadeToggle('slow');
+	setTimeout("$('#page-decouvrir-lmdb').fadeToggle('slow');", 1000);
+	
+
+	
+});
+	*/

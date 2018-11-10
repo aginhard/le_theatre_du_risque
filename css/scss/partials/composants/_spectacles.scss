@@ -1,5 +1,4 @@
 .page-spectacle {
-    
     h1 {
         margin-top: 30vh;
         font-family: Impact;
@@ -18,7 +17,25 @@
         font-family: $police_sousTitre;
         font-size: 1.5em;
         cursor: pointer;
+        text-decoration: none;
     }
+    .button-plus {
+        .plus__gradient {
+            margin: .5em 0em 0em 0em;
+            background-image:linear-gradient( to right, $main-color , $secondary-color );
+            height: 1px;
+        }
+        .plus__gradient-reverse {
+            margin: 0em 0em .5em 0em;
+            background-image:linear-gradient( to left, $main-color , $secondary-color );
+            height: 1px;
+        }
+        p {
+            font-family: $police_button;
+        }
+        margin: 2em 0em 2em 0em;
+    }
+   
     .infos-buttons {
         img {
             width: 40%;
@@ -32,7 +49,7 @@
         }
     }
     .resa-buttons {
-        margin-top: 2em;
+        margin-top: 4em;
         a {
             font-family: $police_button;
             font-size: 1em;
@@ -53,7 +70,7 @@
                 color: $secondary-color;
             }
         }
-    }
+    }    
 }
 
 @media only screen and (max-width : 576px) {
