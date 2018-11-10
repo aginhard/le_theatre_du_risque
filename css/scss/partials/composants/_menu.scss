@@ -1,17 +1,12 @@
-// Burger menu button à ranger dans les variables
-$burger--thickness: 4px;
-
-
-// ??
-small {
-  font-size: 14px;
-}
-
-// Il faut essayer de hierarchiser au maximum comme dans le html
-
-
 .menu {
 
+  .burger-check {
+    display: none;
+    &.burger-check:checked ~ .navigation {
+      max-height: 80vh;
+      transition: $navigation__transition;
+    }
+  }
   .menu__title {
     margin: 10% 0% 0% 0%;
     font-family: $police_sousTitre;
@@ -38,6 +33,11 @@ small {
   }
   }
   .navigation {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 1;
+    background-color: $secondary-color;
+    transition: $navigation__transition;
 
     .navigation__container {
       padding: 0 0 0 0;
@@ -50,6 +50,7 @@ small {
         font-size: 1em;
         padding: 0.5em 0em 0.5em 0em;
         text-align: left;
+        
   
         .item__link {
           text-decoration: none;
@@ -57,130 +58,45 @@ small {
           margin: 0px 0px 0px 10px;
           color: $main-color;
           
+          
           &:hover {
               color: $main-toggle-hover-color;
               text-decoration: none;
           } 
         }
       }
-    }
-  }
-}
-  
-
-
-
-
-
-
-
-.menu__title2 {
-  font-family: $police_sousTitre;
-  font-size: 1em;
-  margin: 0px 0px 10px 10px; 
- 
-  cursor: pointer;
-  &:hover {
-      color: $main-toggle-hover-color;
-  }
-}
-.burger-check {
-  display: none;
-}
-.burger-check2 {
-  display: none;
-}
-.burger-check3 {
-  display: none;
-}
-.burger-check4 {
-  display: none;
-}
-
-// * * * Navigation * * *
-$navigation__transition: max-height 0.5s ease-in-out;
-
-.navigation {
-  overflow: hidden;
-  max-height: 0;
-  opacity: 1;
-  background-color: $secondary-color;
-  transition: $navigation__transition;
-}
-.navigation2 {
-  overflow: hidden;
-  max-height: 0;
-  opacity: 1;
-  background-color: $secondary-color;
-
-  
-  transition: $navigation__transition;
-}
-.navigation3 {
-  overflow: hidden;
-  max-height: 0;
-  border-radius: 5px;
-  opacity: 1;
-  background-color: $secondary-color; 
-  transition: $navigation__transition;
-
-  li {
-    list-style: none;
-    font-family: $police_texte;
-    font-size: 1em;
-    padding: 0 0 0 0;
-  
-    
-    a {
-      text-decoration: none;
-      outline: none;
-      color: $main-toggle-color;
-      
-      &:hover {
-          color: $main-toggle-hover-color;
-          text-decoration: none;
-          color: $main-toggle-hover-color;
-             
-      } 
-    }
-  }
-}
-.navigation4 {
-  overflow: hidden;
-  max-height: 0;
-  opacity: 1;
-  background-color: $secondary-color;
-  
-  transition: $navigation__transition;
-}
-.burger-check:checked ~ .navigation {
-  max-height: 80vh;
-  transition: $navigation__transition;
-}
-.burger-check2:checked ~ .navigation2 {
-  max-height: 80vh;
-  transition: $navigation__transition;
-}
-.burger-check3:checked ~ .navigation3 {
-  max-height: 80vh;
-  transition: $navigation__transition;
-}
-.burger-check3:checked ~ .navigation4 {
-  max-height: 80vh;
-  transition: $navigation__transition;
-}
-
-
-@media only screen and (max-width : 576px){
-
-  .menu__title {
-    font-size: 1.2em;
-    text-align: center;
-    cursor: pointer;
-      &:hover {
-          color: $main-toggle-hover-color;
+      .container__sub-menu {
+        list-style: none;
+        .sub-menu__checkbox {
+          display: none;
+          &.burger-check3:checked ~ .navigation3 {
+            max-height: 80vh!important;
+            transition: $navigation__transition!important;
+          }
+        }
+        .sub-menu__navigation.navigation3 {
+          overflow: hidden;
+          max-height: 0;
+          border-radius: 5px;
+          opacity: 1;
+          background-color: $secondary-color; 
+          transition: $navigation__transition;
+          .navigation__container {
+            .container__item {
+              .item__link {
+                text-decoration: none;
+                outline: none;
+                color: $main-toggle-color;
+                  &:hover {
+                    color: $main-toggle-hover-color;
+                    text-decoration: none;
+                    color: $main-toggle-hover-color;  
+                } 
+              }
+            }
+          }
+        }
       }
+    }
   }
-
-
 }
