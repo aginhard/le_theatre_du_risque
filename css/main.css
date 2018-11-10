@@ -448,49 +448,21 @@ small {
     height: 160px;
   }
 }
-.page-accueil {
-  margin-top: 2em;
-}
-.page-accueil h1 {
+.page__accueil .accueil__wrapper .wrapper__title h1 {
   font-family: Impact;
-  font-weight: bold;
-  padding: 1rem;
-  border-bottom: 2px solid #ffffff;
+  font-size: 4em;
 }
-.page-accueil h2 {
+.page__accueil .accueil__wrapper .wrapper__title h2 {
   font-family: gravityregular;
-  padding: 1rem;
 }
-.page-accueil blockquote {
-  margin-top: 2em;
-  font-family: gravitybook;
+.page__accueil .accueil__wrapper .wrapper__quote {
+  font-family: latoregular;
+  margin: 20vh 0vh 0vh 0vh;
 }
-.page-accueil .margin__blockquote {
-  margin-top: 20em;
+.page__accueil .accueil__wrapper .wrapper__quote footer {
+  color: #ffd3a2;
 }
 
-@media only screen and (max-width: 576px) {
-  .page-accueil {
-    margin-top: 2em;
-  }
-  .page-accueil h1 {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    font-weight: bold;
-    font-size: 1.3em;
-    padding: 1rem;
-    border-bottom: 2px solid #ffffff;
-  }
-  .page-accueil h2 {
-    font-family: keep_calm_medregular;
-    font-size: 1em;
-    padding: 1rem;
-  }
-  .page-accueil blockquote {
-    margin-top: 2em;
-    font-family: latoregular;
-    font-size: 0.8em;
-  }
-}
 .page-proche {
   width: 100%;
   max-height: 80vh;
@@ -557,113 +529,46 @@ small {
     font-size: 1em;
   }
 }
-.page-spectacle h1 {
-  margin-top: 30vh;
-  font-family: Impact;
-  padding: 2rem;
-  border-bottom: 1px solid #ffffff;
+.page__spectacle .spectacle__wrapper {
+  margin: 20vh 0vh 0vh 0vh;
 }
-.page-spectacle blockquote {
-  font-family: gravitybook;
-  padding: 2rem;
-}
-.page-spectacle blockquote footer {
-  color: #ffd3a2;
-}
-.page-spectacle a {
+.page__spectacle .spectacle__wrapper .wrapper__title {
   color: #ffffff;
-  font-family: gravityregular;
-  font-size: 1.5em;
-  cursor: pointer;
-  text-decoration: none;
+  font-family: Impact;
 }
-.page-spectacle .button-plus {
-  margin: 2em 0em 2em 0em;
+.page__spectacle .spectacle__wrapper .wrapper__quote {
+  font-family: latoregular;
+  margin: 2vh 0vh 0vh 0vh;
 }
-.page-spectacle .button-plus .plus__gradient {
-  margin: 0.5em 0em 0em 0em;
-  background-image: linear-gradient(to right, #ffffff, #000000);
-  height: 1px;
-}
-.page-spectacle .button-plus .plus__gradient-reverse {
-  margin: 0em 0em 0.5em 0em;
-  background-image: linear-gradient(to left, #ffffff, #000000);
-  height: 1px;
-}
-.page-spectacle .button-plus p {
-  font-family: keep_calm_medregular;
-}
-.page-spectacle .infos-buttons img {
-  width: 40%;
-  padding: 1em 0em 1em 0em;
-}
-.page-spectacle .infos-buttons p {
-  font-family: gravitybook;
-}
-.page-spectacle .infos-buttons p.pro {
+.page__spectacle .spectacle__wrapper .wrapper__quote footer {
   color: #ffd3a2;
 }
-.page-spectacle .resa-buttons {
-  margin-top: 4em;
-}
-.page-spectacle .resa-buttons a {
+.page__spectacle .spectacle__wrapper .wrapper__button {
   font-family: keep_calm_medregular;
-  font-size: 1em;
-  width: 50%;
-  padding: 1rem;
+  color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 5px;
+  padding: 0.5vh;
+  outline: none;
+  text-decoration: none;
+  width: 100%;
 }
-.page-spectacle .resa-buttons a.button-pro {
-  color: #ffd3a2;
-  border: 1px solid #ffd3a2;
+.page__spectacle .spectacle__wrapper .wrapper__button-plus {
+  border: none;
+  margin: 5vh 0vh 5vh 0vh;
 }
-.page-spectacle .resa-buttons a.button-pro:hover {
-  background-color: #ffd3a2;
-  color: #000000;
+.page__spectacle .spectacle__wrapper .wrapper__button-plus p {
+  padding: 1.2vh;
 }
-.page-spectacle .resa-buttons a:hover {
-  background-color: #ffffff;
-  color: #000000;
+.page__spectacle .spectacle__wrapper .wrapper__button-plus .border__gradient {
+  background: linear-gradient(to right, #d6d6d6, #000000);
+  height: 2px;
+}
+.page__spectacle .spectacle__wrapper .wrapper__button-plus .border__gradient-reverse {
+  background: linear-gradient(to left, #d6d6d6, #000000);
+  height: 2px;
 }
 
-@media only screen and (max-width: 576px) {
-  .page-spectacle h1 {
-    font-size: 1.5em;
-    margin-top: 10vh;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    padding: 2rem;
-    border-bottom: 1px solid #ffffff;
-  }
-  .page-spectacle blockquote {
-    padding: 2rem;
-    font-family: gravitybook;
-    font-size: 0.8em;
-  }
-  .page-spectacle .resa-buttons {
-    margin-top: 5vh;
-  }
-  .page-spectacle .resa-buttons a {
-    font-family: keep_calm_medregular;
-    font-size: 1em;
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-  }
-  .page-spectacle .resa-buttons a.button-pro {
-    color: orange;
-    border: 1px solid orange;
-  }
-  .page-spectacle .resa-buttons a.button-pro:hover {
-    background-color: #ffffff;
-    color: #000000;
-  }
-  .page-spectacle .resa-buttons a:hover {
-    background-color: #ffffff;
-    color: #000000;
-  }
-}
 .page-contact h1 {
   font-family: Impact;
 }

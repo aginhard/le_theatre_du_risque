@@ -1,115 +1,41 @@
-.page-spectacle {
-    h1 {
-        margin-top: 30vh;
-        font-family: Impact;
-        padding: 2rem;
-        border-bottom: 1px solid $main-color;
-    }
-    blockquote {
-        font-family: $police_legende;
-        padding: 2rem;
-        footer {
-            color: $tertiary-color;
+.page__spectacle {
+    .spectacle__wrapper {
+        margin: 20vh 0vh 0vh 0vh;
+        .wrapper__title {
+            color: $main-color;
+            font-family: $police_titre;
         }
-    }
-    a{
-        color: $main-color;
-        font-family: $police_sousTitre;
-        font-size: 1.5em;
-        cursor: pointer;
-        text-decoration: none;
-    }
-    .button-plus {
-        .plus__gradient {
-            margin: .5em 0em 0em 0em;
-            background-image:linear-gradient( to right, $main-color , $secondary-color );
-            height: 1px;
-        }
-        .plus__gradient-reverse {
-            margin: 0em 0em .5em 0em;
-            background-image:linear-gradient( to left, $main-color , $secondary-color );
-            height: 1px;
-        }
-        p {
-            font-family: $police_button;
-        }
-        margin: 2em 0em 2em 0em;
-    }
-   
-    .infos-buttons {
-        img {
-            width: 40%;
-            padding: 1em 0em 1em 0em;
-        }
-        p {
-            font-family: $police_legende;
-            &.pro {
+        .wrapper__quote {
+            font-family: $police_texte;
+            margin: 2vh 0vh 0vh 0vh;
+            footer {
                 color: $tertiary-color;
             }
         }
-    }
-    .resa-buttons {
-        margin-top: 4em;
-        a {
+        .wrapper__button {
             font-family: $police_button;
-            font-size: 1em;
-            width: 50%;
-            padding: 1rem;
+            color: $main-color;
             border: 1px solid $main-color;
             border-radius: 5px;
-            &.button-pro{
-                color: $tertiary-color;
-                border: 1px solid $tertiary-color;
-                &:hover {
-                    background-color: $tertiary-color;
-                    color: $secondary-color;
-                }
+            padding: .5vh;
+            outline: none;
+            text-decoration: none;
+            width: 100%;
+        }
+        .wrapper__button-plus {
+            border: none;
+            margin: 5vh 0vh 5vh 0vh;
+            p {
+                padding: 1.2vh;
             }
-            &:hover {
-                background-color: $main-color;
-                color: $secondary-color;
+            .border__gradient {
+                background: linear-gradient(to right, $main-toggle-color, $secondary-color);
+                height: 2px;
+            }
+            .border__gradient-reverse {
+                background: linear-gradient(to left, $main-toggle-color, $secondary-color);
+                height: 2px;
             }
         }
-    }    
+    }
 }
-
-@media only screen and (max-width : 576px) {
-    .page-spectacle {
-        h1 {
-            font-size: 1.5em;
-            margin-top: 10vh;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            padding: 2rem;
-            border-bottom: 1px solid $main-color;
-        }
-        blockquote {
-            padding: 2rem;
-            font-family: $police_legende;
-            font-size: .8em;
-        }
-        .resa-buttons {
-            margin-top: 5vh;
-            a {
-                font-family: $police_button;
-                font-size: 1em;
-                width: 100%;
-                padding: .5rem;
-                border: 1px solid $main-color;
-                border-radius: 5px;
-                &.button-pro{
-                    color: orange;
-                    border: 1px solid orange;
-                    &:hover {
-                        background-color: $main-toggle-hover-color;
-                        color: $secondary-color;
-                    }
-                }
-                &:hover {
-                    background-color: $main-color;
-                    color: $secondary-color;
-                }
-            }
-        }
-    }  
-}
-

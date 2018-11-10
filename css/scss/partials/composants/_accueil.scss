@@ -1,45 +1,21 @@
-.page-accueil{
-    margin-top: 2em;
-    h1 {
-        font-family: $police_titre;
-        font-weight: bold;
-        padding: 1rem;
-        border-bottom: 2px solid $main-color;
-    }
-    h2 {
-        font-family: $police_sousTitre;
-        padding: 1rem;
-    }
-    blockquote {
-        margin-top: 2em;
-        font-family: $police_legende;
-    }
-    .margin__blockquote {
-        margin-top: 20em;
+.page__accueil{
+    .accueil__wrapper {
+        .wrapper__title {
+            h1 {
+                
+                font-family: $police_titre;
+                font-size: 4em;
+            }
+            h2 {
+                font-family: $police_sousTitre;
+            }
+        }
+        .wrapper__quote {
+            font-family: $police_texte;
+            margin: 20vh 0vh 0vh 0vh;
+            footer {
+                color: $tertiary-color;
+            }
+        }
     }
 }
-
-
-@media only screen and (max-width : 576px) {
-    .page-accueil{
-        margin-top: 2em;
-        h1 {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            font-weight: bold;
-            font-size: 1.3em;
-            padding: 1rem;
-            border-bottom: 2px solid $main-color;
-        }
-        h2 {
-            font-family: keep_calm_medregular;
-            font-size: 1em;
-            padding: 1rem;
-        }
-        blockquote {
-          
-            margin-top: 2em;
-            font-family: latoregular;
-            font-size: .8em;
-        }
-    }
-  }
