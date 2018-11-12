@@ -1,6 +1,6 @@
 .page__spectacle {
     .spectacle__wrapper {
-        margin: 20vh 0vh 0vh 0vh;
+        margin: 30vh 0vh 0vh 0vh;
         .wrapper__title {
             color: $main-color;
             font-family: $police_titre;
@@ -26,7 +26,7 @@
             border: none;
             margin: 5vh 0vh 5vh 0vh;
             p {
-                padding: 1.2vh;
+                padding: 1em 2em .5em 2em;
             }
             .border__gradient {
                 background: linear-gradient(to right, $main-toggle-color, $secondary-color);
@@ -36,6 +36,10 @@
                 background: linear-gradient(to left, $main-toggle-color, $secondary-color);
                 height: 2px;
             }
+        }
+        .wrapper__button-pro {
+            color: $tertiary-color;
+            border-color: $tertiary-color;
         }
     }
 }

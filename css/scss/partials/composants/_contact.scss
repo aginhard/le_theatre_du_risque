@@ -1,63 +1,54 @@
-.page-contact {
-    h1{
-        font-family: $police_titre;
-    }
-    h2 {
-        font-family: $police_sousTitre;
-    }
-    h5 {
-        font-family: $police_legende;
-        padding: 0 0 2em 0;        
-    }
-    .line-normal {
-        background-image:linear-gradient( to right, $main-toggle-color , $secondary-color );
-        height: 2px;
-        width: 100%;
-    }
-    .line-normal-reverse {
-        
-            background-image:linear-gradient( to left, $main-toggle-color , $secondary-color );
-            height: 2px;
-            width: 100%;
-    }
-    .contact__content {
-        padding: 2em 2em 2em 2em;
-        text-align: justify;
-        .content__locate {
-            border-bottom: 1px solid white;
-            padding: 1em 1em 1em 1em;
-            .locate-logos {
-               img{
-                margin-left: .5em;
-               }
+.page__contact {
+    .contact__wrapper {
+        color: $main_color;
+        max-height: 70vh;
+        .wrapper__title {
+            h1 {
+                font-family: $police-titre;
+                font-size: 6vh;
             }
-        }
-        .content__texte {
-            font-family: $police_legende;
-            color: $tertiary_color;
-        }
-        .content__personnel {
-            margin: 2em 2em 2em 0em;
+            h3 {
+                font-family: $police-sousTitre;
+            }
             h6 {
-                font-family: $police_legende;
-                font-weight: bold;
-            }
-            p{
-                font-family: $police_texte;
+                font-family: $police-legende;
             }
         }
-        .content__general {
-            margin: 2em 2em 2em 0em;
-            h6 {
-                font-family: $police_legende;
-                font-weight: bold;
+        .wrapper__line {
+            border-bottom: 1px solid $main-color;
+        }
+        .wrapper__content {
+            padding: 4vh 6vh 4vh 6vh;
+            .content__coordonnees {
+                text-align: left;
+                .coordonnees__map {
+                    overflow:hidden;
+                    padding-bottom:56.25%;
+                    position:relative;
+                    height:0;
+                    iframe {
+                        left:0;
+                        top:0;
+                        height:100%;
+                        width:100%;
+                        position:absolute;
+                    }
+                }
+                .coordonnees__contact {
+                    font-family: $police-legende;
+                }
+                .coordonnees__reseaux {
+                    padding: 0vh 0vh 0vh 1vh;
+                    img {
+                        margin: 1vh 1vh 0vh 0vh;
+                    }
+                }
             }
-            p{
-                font-family: $police_texte;
+            .content__description {
+                font-family: $police-texte;
+                color: $tertiary_color;
+                text-align: justify;
             }
         }
-
-
     }
-     
 }
