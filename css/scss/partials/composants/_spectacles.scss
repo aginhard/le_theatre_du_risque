@@ -1,6 +1,6 @@
 .page__spectacle {
     .spectacle__wrapper {
-        margin: 30vh 0vh 0vh 0vh;
+        margin: 30vh 0vh 2vh 0vh;
         .wrapper__title {
             color: $main-color;
             font-family: $police_titre;
@@ -13,6 +13,7 @@
             }
         }
         .wrapper__button {
+            margin: 2vh 0vh 0vh 0vh;
             font-family: $police_button;
             color: $main-color;
             border: 1px solid $main-color;
@@ -40,6 +41,18 @@
         .wrapper__button-pro {
             color: $tertiary-color;
             border-color: $tertiary-color;
+            &:hover {
+                background-color: $tertiary-color;
+                color: $secondary-color;
+                -moz-animation: fadein 1s;
+            }
+        }
+        .wrapper__button-reserve {
+            &:hover {
+                background-color: $main-color;
+                color: $secondary-color;
+                -moz-animation: fadein 1s; 
+            }
         }
     }
 }

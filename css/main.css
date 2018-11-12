@@ -463,7 +463,7 @@
   }
 }
 .page__spectacle .spectacle__wrapper {
-  margin: 30vh 0vh 0vh 0vh;
+  margin: 30vh 0vh 2vh 0vh;
 }
 .page__spectacle .spectacle__wrapper .wrapper__title {
   color: #ffffff;
@@ -477,6 +477,7 @@
   color: #ffd3a2;
 }
 .page__spectacle .spectacle__wrapper .wrapper__button {
+  margin: 2vh 0vh 0vh 0vh;
   font-family: keep_calm_medregular;
   color: #ffffff;
   border: 1px solid #ffffff;
@@ -504,6 +505,16 @@
 .page__spectacle .spectacle__wrapper .wrapper__button-pro {
   color: #ffd3a2;
   border-color: #ffd3a2;
+}
+.page__spectacle .spectacle__wrapper .wrapper__button-pro:hover {
+  background-color: #ffd3a2;
+  color: #000000;
+  -moz-animation: fadein 1s;
+}
+.page__spectacle .spectacle__wrapper .wrapper__button-reserve:hover {
+  background-color: #ffffff;
+  color: #000000;
+  -moz-animation: fadein 1s;
 }
 
 .page__contact .contact__wrapper {
