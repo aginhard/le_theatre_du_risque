@@ -1,0 +1,14 @@
+.spectacle__info {
+    .info__wrapper {
+        .wrapper__title {
+            color: $main-color;
+            h1 {
+                font-family: $police-titre;
+            }
+            .wrapper__line {
+                border-bottom: 1px solid $main-color;
+                margin: 2vh 5vh 1vh 5vh;
+            }
+        }
+    }
+}

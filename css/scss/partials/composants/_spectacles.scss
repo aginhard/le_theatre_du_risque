@@ -1,9 +1,13 @@
-.page__spectacle {
+.section__spectacle {
     .spectacle__wrapper {
         margin: 30vh 0vh 2vh 0vh;
         .wrapper__title {
             color: $main-color;
             font-family: $police_titre;
+            .wrapper__line {
+                border-bottom: 1px solid $main-color;
+                margin: 2vh 5vh 1vh 5vh;
+            }
         }
         .wrapper__quote {
             font-family: $police_texte;
@@ -37,6 +41,7 @@
                 background: linear-gradient(to left, $main-toggle-color, $secondary-color);
                 height: 2px;
             }
+            
         }
         .wrapper__button-pro {
             color: $tertiary-color;
@@ -44,14 +49,13 @@
             &:hover {
                 background-color: $tertiary-color;
                 color: $secondary-color;
-                -moz-animation: fadein 1s;
             }
         }
         .wrapper__button-reserve {
             &:hover {
                 background-color: $main-color;
                 color: $secondary-color;
-                -moz-animation: fadein 1s; 
+                
             }
         }
     }
