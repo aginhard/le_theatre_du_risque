@@ -547,6 +547,7 @@
 }
 .page__contact .contact__wrapper .wrapper__content .content__coordonnees .coordonnees__reseaux {
   padding: 0vh 0vh 0vh 1vh;
+  text-align: right;
 }
 .page__contact .contact__wrapper .wrapper__content .content__coordonnees .coordonnees__reseaux img {
   margin: 1vh 1vh 0vh 0vh;
