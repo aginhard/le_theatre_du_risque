@@ -247,6 +247,7 @@
   cursor: pointer;
   width: 100%;
   padding: 0.5em 0em 0.5em 0.5em;
+  margin: 0em 0em 0em 0em;
 }
 .menu .navigation .navigation__container .container__sub-menu .sub-menu__label:hover {
   background-color: rgba(29, 26, 29, 0.7);
