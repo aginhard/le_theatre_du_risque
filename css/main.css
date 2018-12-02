@@ -515,74 +515,85 @@
     font-size: 1em;
   }
 }
-.page-spectacle h1 {
-  margin-top: 30vh;
+.page-spectacle .spectacle-container {
+  display: flex;
+  align-items: flex-end;
+  height: 85vh;
+}
+.page-spectacle .spectacle-container h1 {
   font-family: Impact;
-  padding: 2rem;
-  border-bottom: 1px solid #ffffff;
+  margin: 0% 0% 2% 0%;
+  color: #d6d6d6;
 }
-.page-spectacle blockquote {
-  font-family: gravitybook;
-  padding: 2rem;
-}
-.page-spectacle blockquote footer {
-  color: #ffd3a2;
-}
-.page-spectacle a {
+.page-spectacle .spectacle-container h1:hover {
   color: #ffffff;
+}
+.page-spectacle .spectacle-container .separator {
+  border-bottom: solid 1px #ffffff;
+  margin: 0% 20% 0% 20%;
+  height: 1px;
+}
+.page-spectacle .spectacle-container blockquote {
+  font-family: gravitybook;
+  margin: 1em;
+  font-size: 1em;
+}
+.page-spectacle .spectacle-container blockquote footer {
+  color: #ffd3a2;
+  margin: 0.5em 0em 0em 0em;
+}
+.page-spectacle .spectacle-container a {
   font-family: gravityregular;
   font-size: 1.5em;
   cursor: pointer;
   text-decoration: none;
 }
-.page-spectacle .button-plus {
-  margin: 2em 0em 2em 0em;
-}
-.page-spectacle .button-plus .plus__gradient {
-  margin: 0.5em 0em 0em 0em;
-  background-image: linear-gradient(to right, #ffffff, #000000);
-  height: 1px;
-}
-.page-spectacle .button-plus .plus__gradient-reverse {
-  margin: 0em 0em 0.5em 0em;
-  background-image: linear-gradient(to left, #ffffff, #000000);
-  height: 1px;
-}
-.page-spectacle .button-plus p {
+.page-spectacle .spectacle-container .button-plus h5 {
+  color: #d6d6d6;
   font-family: keep_calm_medregular;
+  font-size: 0.6em;
+  text-decoration: underline;
 }
-.page-spectacle .infos-buttons img {
+.page-spectacle .spectacle-container .button-plus h5:hover {
+  color: #ffffff;
+}
+.page-spectacle .spectacle-container .infos-buttons img {
   width: 40%;
   padding: 1em 0em 1em 0em;
 }
-.page-spectacle .infos-buttons p {
+.page-spectacle .spectacle-container .infos-buttons p {
   font-family: gravitybook;
 }
-.page-spectacle .infos-buttons p.pro {
+.page-spectacle .spectacle-container .infos-buttons p.pro {
   color: #ffd3a2;
 }
-.page-spectacle .resa-buttons {
-  margin-top: 4em;
+.page-spectacle .spectacle-container .resa-buttons .resa-button-container, .page-spectacle .spectacle-container .resa-buttons .accr-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2em 0em 0em 0em;
 }
-.page-spectacle .resa-buttons a {
+.page-spectacle .spectacle-container .resa-buttons .resa-button-container a, .page-spectacle .spectacle-container .resa-buttons .accr-button-container a {
   font-family: keep_calm_medregular;
-  font-size: 1em;
-  width: 50%;
-  padding: 1rem;
+  font-size: 0.9em;
+  min-width: auto;
+  padding: 0.6em 2.5em 0.6em 2.5em;
   border: 1px solid #ffffff;
-  border-radius: 5px;
+  border-radius: 10px;
 }
-.page-spectacle .resa-buttons a.button-pro {
+.page-spectacle .spectacle-container .resa-buttons .resa-button-container a.button-pro, .page-spectacle .spectacle-container .resa-buttons .accr-button-container a.button-pro {
   color: #ffd3a2;
   border: 1px solid #ffd3a2;
 }
-.page-spectacle .resa-buttons a.button-pro:hover {
+.page-spectacle .spectacle-container .resa-buttons .resa-button-container a.button-pro:hover, .page-spectacle .spectacle-container .resa-buttons .accr-button-container a.button-pro:hover {
   background-color: #ffd3a2;
   color: #000000;
 }
-.page-spectacle .resa-buttons a:hover {
+.page-spectacle .spectacle-container .resa-buttons .resa-button-container a:hover, .page-spectacle .spectacle-container .resa-buttons .accr-button-container a:hover {
   background-color: #ffffff;
   color: #000000;
+}
+.page-spectacle .spectacle-container .resa-buttons .accr-button-container {
+  justify-content: flex-start;
 }
 
 @media only screen and (max-width: 576px) {
