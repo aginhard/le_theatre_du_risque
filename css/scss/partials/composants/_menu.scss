@@ -9,10 +9,11 @@
   }
   .menu__title {
     margin: 10% 0% 0% 0%;
-    font-family: $police_sousTitre;
+    font-family: $police_button;
     font-weight: 100;
     font-size: 1em;
     padding: 1em 0em 1rem 0em;
+    margin: 0em 0em 0.5em 0.5em; 
     color: $main-toggle-color;
     display: block;
     width: 90%;
@@ -28,6 +29,7 @@
   .title__gradient {
     background-image:linear-gradient( to right, $main-toggle-color , $secondary-color );
     height: 1px;
+    margin: 0em 0em 0.5em 0.5em;
     &:hover {
       background-image: $main-toggle-hover-color;
   }
@@ -48,17 +50,17 @@
         margin : 0px 0px 1px 0px;
         font-family: $police_texte;
         font-size: 1em;
-        padding: 0.5em 0em 0.5em 0em;
+        padding: 0.5em 0em 0.5em 0.5em;
         text-align: left;
-        
+        &:hover {
+          background-color: $menu-background-color;
+        }
   
         .item__link {
           text-decoration: none;
           outline: none;
-          margin: 0px 0px 0px 10px;
-          color: $main-color;
-          
-          
+          color:$main-toggle-color;
+          font-size: 1rem;
           &:hover {
               color: $main-toggle-hover-color;
               text-decoration: none;
@@ -67,6 +69,7 @@
       }
       .container__sub-menu {
         list-style: none;
+        text-align: left;
         .sub-menu__checkbox {
           display: none;
           &.burger-check3:checked ~ .navigation3 {
@@ -74,23 +77,39 @@
             transition: $navigation__transition!important;
           }
         }
+        .title__gradient {
+          margin: 0em 0.5em 0em 0.5em;
+        }
+        .sub-menu__label {
+          cursor:pointer;
+          width: 100%;
+          padding: 0.5em 0em 0.5em 0.5em;
+          &:hover {
+            background-color: $menu-background-color;
+          }
+        }
         .sub-menu__navigation.navigation3 {
           overflow: hidden;
           max-height: 0;
-          border-radius: 5px;
           opacity: 1;
           background-color: $secondary-color; 
           transition: $navigation__transition;
           .navigation__container {
             .container__item {
+              padding: 0.5em 0em 0.5em 0.5em; 
+              font-family: $police_texte ;
+              font-size: 1em;
+              &:hover {
+                background-color:$sub-menu-background-color;
+              }
               .item__link {
                 text-decoration: none;
                 outline: none;
                 color: $main-toggle-color;
+                font-size: 0.8em;
                   &:hover {
                     color: $main-toggle-hover-color;
                     text-decoration: none;
-                    color: $main-toggle-hover-color;  
                 } 
               }
             }
